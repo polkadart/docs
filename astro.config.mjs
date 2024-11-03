@@ -79,7 +79,7 @@ export default defineConfig({
                 ],
             },
             {
-                label: 'Guides & FAQ',
+                label: 'Guides',
                 autogenerate: { directory: 'guides' },
             },
             {
