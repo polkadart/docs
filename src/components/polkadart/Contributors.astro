@@ -1,13 +1,36 @@
 ---
+interface Contributor {
+    login: string;
+    name: string;
+    avatar_url: string;
+    profile: string;
+    contributions: string[];
+}
+
+interface ContributorsData {
+    files: string[];
+    imageSize: number;
+    commit: boolean;
+    commitType: string;
+    commitConvention: string;
+    contributors: Contributor[];
+    contributorsPerLine: number;
+    skipCi: boolean;
+    repoType: string;
+    repoHost: string;
+    projectName: string;
+    projectOwner: string;
+}
+
 const response = await fetch(
     'https://raw.githubusercontent.com/leonardocustodio/polkadart/refs/heads/main/.all-contributorsrc'
 );
-const data = await response.json();
+const data: ContributorsData = await response.json();
 ---
 
 <div class="contributors-section">
     <ul class="contributors-grid">
-        {data.contributors.map((contributor) => (
+        {data.contributors.map((contributor: Contributor) => (
             <li class="contributor-card">
                 <div class="card-content">
                     <a href={contributor.profile} target="_blank" rel="noopener">
