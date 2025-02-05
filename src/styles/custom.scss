@@ -1,6 +1,6 @@
-@import '../scss/fontawesome';
-@import '../scss/solid';
-@import '../scss/brands';
+@use '../scss/fontawesome';
+@use '../scss/solid';
+@use '../scss/brands';
 
 .package-badge {
     font-size: 10px!important;

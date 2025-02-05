@@ -1,0 +1,8 @@
+---
+import { marked } from 'marked';
+const response = await fetch('https://raw.githubusercontent.com/leonardocustodio/polkadart/refs/heads/main/README.md');
+const data = await response.text();
+const content = marked.parse(data.split('## Contributors')[1].split('## **License**')[0].trim());
+---
+
+<div set:html={content} />
