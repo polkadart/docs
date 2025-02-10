@@ -83,6 +83,14 @@ export default defineConfig({
                 ],
             },
             {
+                label: 'ink! Smart Contracts',
+                items: [
+                    { label: 'Overview', slug: 'ink/overview' },
+                    { label: 'ABI', slug: 'ink/ink_abi' },
+                    { label: 'CLI', slug: 'ink/ink_cli' },
+                ],
+            },
+            {
                 label: 'Guides',
                 autogenerate: { directory: 'guides' },
             },
