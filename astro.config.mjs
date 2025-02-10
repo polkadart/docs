@@ -4,6 +4,9 @@ import partytown from '@astrojs/partytown';
 import sitemap from '@astrojs/sitemap';
 import icon from 'astro-icon';
 import tailwindcss from "@tailwindcss/vite";
+import starlightDocSearch from '@astrojs/starlight-docsearch';
+import { loadEnv } from "vite";
+const { ALGOLIA_APP_ID, ALGOLIA_API_KEY, ALGOLIA_INDEX_NAME } = loadEnv(process.env.NODE_ENV, process.cwd(), '');
 
 export default defineConfig({
     site: 'https://polkadart.dev',
@@ -164,6 +167,13 @@ export default defineConfig({
         customCss: [
             './src/styles/custom.scss',
             './src/styles/landing.css',
+        ],
+        plugins: [
+            starlightDocSearch({
+                appId: ALGOLIA_APP_ID,
+                apiKey: ALGOLIA_API_KEY,
+                indexName: ALGOLIA_INDEX_NAME,
+            }),
         ],
 		})],
 });
