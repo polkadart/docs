@@ -47,7 +47,7 @@ Type-safe, performant, and production-ready SDK for building decentralized appli
 
 :::div{class="flex justify-center items-center gap-8 mt-8"}
   ::div
-  [**11** Packages]{.text-sm.text-gray-600}
+  [**12** Packages]{.text-sm.text-gray-600}
   ::
 
   ::div
