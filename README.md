@@ -1,72 +1,31 @@
-# Docus Default Starter
+<p align="center">
+<img src="https://raw.githubusercontent.com/leonardocustodio/polkadart/main/.github/assets/polkadart-logo.png" height="120" alt="Polkadart" />
+</p>
 
-> A beautiful, minimal starter for creating documentation with Docus
+<h3 align="center">
+  The Complete Dart SDK for Polkadot & Substrate
+</h3>
 
-This is the default Docus starter template that provides everything you need to build beautiful documentation sites with Markdown and Vue components.
+<p align="center">
+  <em>Build powerful blockchain applications with type-safe Dart & Flutter</em>
+</p>
 
-> [!TIP]
-> If you're looking for i18n support, check out the [i18n starter](https://github.com/nuxt-themes/docus/tree/main/.starters/i18n).
+<p align="center">
+<a href="https://github.com/leonardocustodio/polkadart"><img src="https://img.shields.io/github/stars/leonardocustodio/polkadart.svg?style=flat&logo=github&colorB=deeppink&label=Stars" alt="Star on Github"></a>
+<a href="https://github.com/leonardocustodio/polkadart/actions/workflows/tests.yml"><img alt="GitHub Actions Workflow Status" src="https://img.shields.io/github/actions/workflow/status/leonardocustodio/polkadart/tests.yml?style=flat&label=Tests"></a>
+<a href="https://codecov.io/gh/leonardocustodio/polkadart"><img src="https://img.shields.io/codecov/c/github/leonardocustodio/polkadart?label=Codecov&token=HG3K4LW5UN" alt="Codecov"></a>
+<a href="#contributors"><img src="https://img.shields.io/github/all-contributors/leonardocustodio/polkadart?color=ee8449&label=All%20Contributors" alt="All contributors"></a>
+<a href="https://www.apache.org/licenses/LICENSE-2.0"><img src="https://img.shields.io/badge/license-Apache%202.0-purple.svg?label=License" alt="License: Apache 2"></a>
+</p>
 
-## ✨ Features
+<p align="center">
+  <strong>Get started in minutes</strong> • <strong>Perfect for Flutter apps</strong> • <strong>Production ready</strong>
+</p>
 
-- 🎨 **Beautiful Design** - Clean, modern documentation theme
-- 📱 **Responsive** - Mobile-first responsive design  
-- 🌙 **Dark Mode** - Built-in dark/light mode support
-- 🔍 **Search** - Full-text search functionality
-- 📝 **Markdown Enhanced** - Extended markdown with custom components
-- 🎨 **Customizable** - Easy theming and brand customization
-- ⚡ **Fast** - Optimized for performance with Nuxt 4
-- 🔧 **TypeScript** - Full TypeScript support
+---
 
-## 🚀 Quick Start
+<img align="right" width="400" src="https://raw.githubusercontent.com/w3f/Grants-Program/00855ef70bc503433dc9fccc057c2f66a426a82b/static/img/badge_black.svg" />
 
-```bash
-# Install dependencies
-npm install
+Polkadart is a comprehensive Dart/Flutter SDK that provides everything you need to build decentralized applications on Polkadot, Substrate, and other compatible blockchain networks. With type-safe APIs, automatic code generation, and Flutter-first design, it's the most developer-friendly way to integrate blockchain functionality into your Dart applications.
 
-# Start development server
-npm run dev
-```
-
-Your documentation site will be running at `http://localhost:3000`
-
-## 📁 Project Structure
-
-```
-my-docs/
-├── content/              # Your markdown content
-│   ├── index.md         # Homepage
-│   ├── 1.getting-started/  # Getting started section
-│   └── 2.essentials/    # Essential documentation
-├── public/              # Static assets
-└── package.json         # Dependencies and scripts
-```
-
-## ⚡ Built with
-
-This starter comes pre-configured with:
-
-- [Nuxt 4](https://nuxt.com) - The web framework
-- [Nuxt Content](https://content.nuxt.com/) - File-based CMS
-- [Nuxt UI Pro](https://ui.nuxt.com/pro) - Premium UI components
-- [Nuxt Image](https://image.nuxt.com/) - Optimized images
-- [Tailwind CSS 4](https://tailwindcss.com/) - Utility-first CSS
-- [Docus Layer](https://www.npmjs.com/package/docus) - Documentation theme
-
-## 📖 Documentation
-
-For detailed documentation on customizing your Docus project, visit the [Docus Documentation](https://docus.dev)
-
-## 🚀 Deployment
-
-Build for production:
-
-```bash
-npm run build
-```
-
-The built files will be in the `.output` directory, ready for deployment to any hosting provider that supports Node.js.
-
-## 📄 License
-
-[MIT License](https://opensource.org/licenses/MIT) 
+This library is funded by [Web3 Foundation](https://web3.foundation) via their [Open Grants Program](https://github.com/w3f/Open-Grants-Program)
